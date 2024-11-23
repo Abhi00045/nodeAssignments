@@ -1,0 +1,12 @@
+{
+  "name": "day03homework",
+  "version": "1.0.4",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
