@@ -28,7 +28,7 @@
 //         if(a%i==0){
 //             b=true;
 //         }
-//     }return b;
+//     }
 // }
 // let n=9;
 // let arr =[0,0,3,0,0,5,0,0,7]
@@ -114,6 +114,39 @@
 // for(let i=0;i<len;i++){
 //     if(arr[i]===key) console.log(i);
 // }
+// let len = 4;
+// let arr=[3,1,4,2];
+// let smallestEle=-1;
+// let i=0,j=i+1;
+// let ptr ;
+
+// for(let i=0;i<len;i++){
+//     if(arr[i]<arr[i+1]){
+//         smallestEle=arr[i];
+//     }
+// }
+// console.log(smallestEle);
+// if(arr[i]<arr[j+1]){
+//     ptr=i;
+// }else if(arr[i]>arr[j+1]){
+//     ptr=j
+// }console.log(arr[ptr]);
+let srt =100,end=300;
+let ans;
+for(let i=srt;i<=end;i++){
+    let notprime=false;
+    for(let j=2;j<=i;j++){
+        if(i%j===0 && j!==i){
+            notprime=true;
+        }
+    }if(notprime === false){
+        
+    }
+}console.log(ans);
+
+
+
+
 
 
 
