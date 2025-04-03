@@ -1,19 +1,18 @@
+import Form from "./Form"
 import List from "./List"
+import { Data } from "./data"
 
 function App() {
  
-  const data = [
-    {id:1, name:'abhi',age:19},
-    {id:2,name:'siri',age:20},
-  ]
+  // const data = []
   return (
     <>
-     <List arr={data}/>
+    <div id="tab-updater">
+    <Form/>
+    <List dataArray={Data}/>
+    </div>
     </>
   )
 }
 
 export default App
-
-
-chell0 oka kotha shoping cart chedhaam
