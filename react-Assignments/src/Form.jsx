@@ -25,7 +25,7 @@ function Form() {
             <label htmlFor="contact">Date Of birth : </label>
             <input type="date"/>
             </div>
-            <button>Add Data</button>
+            {/* <button onClick={HandleAdd}>Add Data</button> */}
         </form>
     </div>
     </>
